@@ -67,7 +67,8 @@ class Persona:
 
     def __str__(self):
         return (f"Persona[ Cédula: {self._cedula}, "
-                f"Nombre: {self._nombre} {self._apellido}, "
+                f"Nombre: {self._nombre}, "
+                f"Apellido: {self._apellido}, "
                 f"Sexo: {self._sexo}, "
                 f"Email: {self._email if self._email else 'No registrado'} ]")
 
